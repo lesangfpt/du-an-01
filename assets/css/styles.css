@@ -5,6 +5,10 @@ html {
     font-size: 62.5%;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
@@ -60,7 +64,7 @@ a {
     background-color: #e6f0ff;
     flex-direction: column;
     /* height: 736px; */
-    height: 100vh;
+    height: calc(100vh - 90px)
 }
 
 .navbar {
