@@ -59,12 +59,12 @@ a {
 }
 
 .hero-wrap {
-    justify-content: center;
-    display: flex;
     position: relative;
-    background-color: #e6f0ff;
+    display: flex;
     flex-direction: column;
-    height: calc(100vh - 80px)
+    justify-content: center;
+    background: #e6f0ff;
+    height: calc(100vh - 90px);
 }
 
 .navbar {
@@ -108,7 +108,7 @@ a {
 }
 
 .hero-wrap .info {
-    width: 51%;
+    width: 50.4%;
 }
 .hero-wrap .sub-title {
     font-weight: 500;
@@ -121,7 +121,7 @@ a {
 .hero-wrap .title {
     margin-top: 8px;
     font-weight: 700;
-    font-size: 6.4rem;
+    font-size: 6.2rem;
     line-height: 1.19;
     color: #000336;
 }
@@ -142,10 +142,11 @@ a {
     display: flex;
 }
 
-.hero-wrap .hero-img {
-    display: flex;
+.hero-wrap .content .hero-img {
+    position: absolute;
     right: calc((100vw - 1110px) / 2 - 100px);
-    bottom: 0px;
+    bottom: 0;
+    margin-left: 60px;
 }
 
 /* ===============Clients=================== */
