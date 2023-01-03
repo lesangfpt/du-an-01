@@ -49,6 +49,7 @@ a {
 .header {
     position: relative;
     background-color: #e6f0ff;
+    /* height: 736px; */
     height: 100vh;
 }
 
@@ -128,7 +129,7 @@ a {
 .hero .hero-img {
     position: absolute;
     right: calc((100vw - 1110px) / 2 - 100px);
-    bottom: 200px;
+    bottom: 0px;
 }
 
 /* ===============Clients=================== */
